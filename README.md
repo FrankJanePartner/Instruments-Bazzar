@@ -1,4 +1,4 @@
-# YT_Django_Project_Ecommerce
+# Instrument Bazzar
 
 ## Instructions
 
