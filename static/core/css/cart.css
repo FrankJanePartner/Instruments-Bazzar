@@ -1,0 +1,214 @@
+.cart main{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart main .emptyCart{
+    width: 60%;
+    height: 55vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.cart main .emptyCart h1{
+    margin-bottom: 0.5rem;
+}
+
+.cart main .emptyCart p{
+    margin: 0;
+}
+
+.cart main .emptyCart button{
+    width: 100%;
+    height: 3rem;
+    margin-top: 3rem;
+    border: none;
+    background-color: #ff0318;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart main .emptyCart button a{
+    text-decoration: none;
+    color: white;
+}
+
+.cart main .cartItem{
+    width: 95%;
+    height: fit-content;
+    margin-bottom: 3rem;
+    /* display: none; */
+}
+
+.cart main .cartItem .div{
+    width: 100%;
+    margin: 1.5rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cart main .cartItem .div .nav{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart main .cartItem .div .nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart main .cartItem .div .shop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart main .cartItem .div .shop h2{
+    font-size: 2rem;
+}
+
+.cart main .cartItem .div .shop a{
+    padding: 1rem 5rem;
+    text-decoration: none;
+    border: 1px solid #ff0318;
+    color: #ff0318;
+    border-radius: 10px;
+}
+
+.cart main .cartItem table{
+    width: 100%;
+    margin: 0;
+}
+
+.cart main .cartItem .first tr{
+    width: 100%;
+    margin: 0.9rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart main .cartItem .first tr td{
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cart main .cartItem .first tr td.one{
+    position: relative;
+}
+
+.cart main .cartItem .first tr td sup{
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    background-color: #ff0318;
+    color: white;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart main .cartItem .first tr td span img{
+   height: 5rem;
+   width: 5rem;
+}
+
+.cart main .cartItem .first tr td p{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.cart main .cartItem .first tr td input{
+    width: 1.5rem;
+    height: 1.9rem;
+    background-color: rgb(240, 237, 237);
+    border: 1px solid black;
+}
+
+.cart main .cartItem .first tr td button{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(230, 229, 229);
+    border: none;
+}
+
+/* .cart main .cartItem .second{
+    background-color: #ff0318;
+} */
+
+.cart main .cartItem .second{
+    border: 1px solid;
+    margin: 1rem 0rem;
+}
+
+.cart main .cartItem .second div{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.cart main .cartItem .checkout{
+    border: none;
+    background-color: #ff0318;
+    padding: 1rem 5rem;
+}
+
+.cart main .cartItem .checkout a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3rem;
+}
+
+.cart main .cartItem .mobile{
+    display: none;
+}
+
+@media screen and (max-width: 450px){
+    .cart main .cartItem .web{
+        display: none;
+    }
+
+    .cart main .cartItem .mobile{
+        width: 100%;
+        display: block;
+    }
+
+    .cart main .cartItem .mobile .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 5rem;
+    }
+
+    .cart main .cartItem .mobile .two span span{
+        width: 10%;
+        background-color: rgb(230, 229, 229);
+        height: fit-content !important;
+    }
+}
