@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ category.name }}{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'core/css/product.css' %}">
+<div class="landing-page product">
+  <div class="main">
+    <aside>
+        <ul>
+            <h3><a href="">Industrial<a></h3>
+            <a href="">
+                <li>Oil and Gas</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+            <a href="">
+                <li>Petroleum</li>
+            </a>
+        </ul>
+    </aside>
+    <main>
+        <section class="firstSection">
+          <div>
+            <h1>Empowering Your Industry with Precision Machinery</h1>
+            <p>
+              Unleash the Power of Innovation with Instruments Bazzar, your
+              premier destination for cutting-edge machinery and equipment.
+            </p>
+            <button><a href="/shop/" style="text-decoration: none; color: white;">Shop Now &rarr;<a></button>
+          </div>
+        </section>
+        <section class="forthSection">
+          <div class="product">
+            <p>Showing all {{ total_products }} results</p>
+            <span>
+            <p style="color: gray; font-size: 0.7rem;">Show</p>
+            <select name="" id="">
+                <option value="">{{ total_products }} Items</option>
+            </select>
+            </span>
+          </div>
+          <div class="productList">
+            {% if not products %}
+              <div class="col-12">There are currently no products active</div>
+            {% else %}
+              {% for product in products %}
+                <div class="pro">
+                  {% for image in product.product_image.all %}
+                      {% if image.is_feature%}
+                        <img src="{{ image.image.url }}" alt="{{ image.image.alt_text }}">
+                      {% endif %}
+                    {% endfor %}
+                    <div class="slideline">
+                      <span class="active"></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <h6>
+                      <a style="color:black; text-decoration:none;" href="{{ product.get_absolute_url }}">{{ product.name|slice:":50" }}...</a>
+                    </h6>
+                    <h5>
+                      <del>N</del>{{product.regular_price}}
+                    </h5>
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </section>
+        <section class="nineSection">
+          <img src="{% static 'core/images/image-1@2x.png' %}" alt="">
+          <img src="{% static 'core/images/image-2@2x.png' %}" alt="">
+          <img src="{% static 'core/images/image-4@2x.png' %}" alt="">
+          <img src="{% static 'core/images/image-5@2x.png' %}" alt="">
+          <img src="{% static 'core/images/image-6@2x.png' %}" alt="">
+        </section>
+        <section class="tenSection" style="width: 100%;">
+          <div class="one">
+            <h3>Get our emails for info on new items, sales and more.</h3>
+            <div>
+              <input type="text" placeholder="Enter your email address here...">
+              <button>Subscribe</button>
+            </div>
+            <p>
+              By subscribing, you agree to our Terms & Conditions and Privacy
+              & Cookies Policy
+            </p>
+          </div>
+          <div class="two">
+            <h2>Need Help?</h2>
+            <h2>(+234) 803 5674 372</h2>
+            <p>We are available 24/7</p>
+          </div>
+        </section>
+    </main>
+  </div>
+</div>
+{% endblock %}
