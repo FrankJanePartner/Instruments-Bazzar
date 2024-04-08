@@ -1,0 +1,122 @@
+.order-history{
+    height: fit-content !important;
+    margin-bottom: 1rem;
+}
+
+.order-history .main{
+    height: fit-content !important;
+}
+
+.order-history .main main{
+    height: fit-content !important;
+    margin: 0 0 3rem;
+}
+
+.order-history .main main .section{
+    width: 97%;
+    height: fit-content !important;
+    padding: 1.3rem 0 1.5rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5c6375;
+}
+
+.order-history .main main .nav{
+    border-bottom: 1px solid gray;
+}
+
+.order-history .main main .nav a{
+    color: #444d61;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.order-history .main main .order-info{
+    height: fit-content !important;
+    color: #5c6375;
+    padding-left: 7rem;
+}
+
+.order-history .main main .order-info section{
+    width: 97%;
+    height: 24rem;
+    margin-top: 2rem;
+    border-left: 0.3rem solid #0a0d14;
+    position: relative;
+}
+
+.order-history .main main .order-info section ul{
+    width: 40%;
+    list-style-type: none;
+    position: absolute;
+    top: -3.5rem;
+    left: -3.95rem;
+}
+
+.order-history .main main .order-info section ul li{
+    margin: 1.1rem 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.order-history .main main .order-info section ul li .check{
+    color: white;
+    background-color: #0a0d14;
+    border-radius: 100%;
+    padding: 0.5rem 0.75rem;
+    font-weight: 800;
+    margin: 0;
+    border: 3px solid white;
+}
+
+.order-history .main main .order-info section ul li span{
+    margin-left: 3rem;
+}
+
+.order-history .main main .order-info section ul li span p{
+    margin: 0;
+}
+
+.order-history .main main .order-info section ul li .order-status{
+    color: white;
+    background-color: #0a0d14;
+    border-radius: 5px;
+    padding: 0.5rem 0.75rem;
+    margin: 0px 0px 7px;
+    font-size: 1rem;
+}
+
+.order-history .main main .order-info section ul li.download p.check{
+    background-color: white;
+    border: 5px solid rgb(5, 67, 20);
+    height: 0.75rem;
+    width: 0.35rem;
+}
+
+.order-history .main main .order-info section ul li.download .order-status{
+    background-color: rgb(5, 67, 20);
+}
+
+.order-history .main main .order-info section ul li.false p.order-status{
+    color: white;
+    background-color: #c7d2ed;
+    border-radius: 5px;
+    padding: 0.5rem 0.75rem;
+    margin: 0px 0px 7px;
+    font-size: 1rem;
+}
+
+.order-history .main main .order-info section ul li.false p.check{
+    color: white;
+    background-color: #c7d2ed;
+    border-radius: 100%;
+    padding: 0.5rem 0.75rem;
+    margin: 0px 0px 7px;
+    font-size: 1rem;
+}

@@ -1,0 +1,161 @@
+.orders .tabs{
+    width: 97%;
+    margin: 0;
+}
+
+/* Style the tab */
+.orders .tabs .tab {
+    overflow: hidden;
+    border: none;
+    border-bottom: 0.3rem solid #f0e2e2;
+    background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.orders .tabs .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.2s;
+    font-size: 17px;
+    margin-right: 3rem;
+}
+
+/* Change background color of buttons on hover */
+.orders .tabs .tab button:hover {
+    background-color: white;
+    border-bottom: 0.5rem solid #ff0318;
+}
+
+
+/* Create an active/current tablink class */
+.orders .tabs .tab button.active {
+    background-color: white;
+    border-bottom: 0.5rem solid #ff0318;
+}
+
+/* Style the tab content */
+.orders .tabs .tabcontent{
+    width: 95%;
+    margin: 0;
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+.orders .tabs .tabcontent .div{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.orders .tabs .tabcontent .div .span{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orders .tabs .tabcontent .div .span img{
+    width: 8rem;
+    height: 8rem;
+    margin: 0;
+}
+
+.orders .tabs .tabcontent .div .span span{
+    margin: 10px 0;
+}
+
+.orders .tabs .tabcontent .div .span span h4{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.orders .tabs .tabcontent .div .span span p{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.orders .tabs .tabcontent .div .span span p.status{
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.orders .tabs .tabcontent .div .span span.completed p.status{
+    background-color: rgb(1, 82, 21);
+}
+
+.orders .tabs .tabcontent .div .span span.pending p.status{
+    background-color: rgb(216, 224, 3);
+}
+
+.orders .tabs .tabcontent .div .span span.cancelled p.status{
+    background-color: rgb(216, 5, 5);
+}
+
+.orders .tabs .tabcontent .div a{
+    text-decoration: none;
+    color: #ff0318;
+    background-color: #ebd0d0;
+    padding: 0.5rem 0.7rem;
+}
+
+@media all and (max-width:450px) {
+    .orders .tabs{
+        width: 98vw;
+    }
+
+
+    .orders .tabs .tab button {
+        padding: 14px 12px;
+        margin-right: 1rem;
+    }
+
+    .orders .tabs .tabcontent .div{
+        flex-direction: column;
+    }
+    
+    .orders .tabs .tabcontent .div .span{
+        width: 100%;
+        margin-bottom: 1.3rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .orders .tabs .tabcontent .div .span img{
+        width: 7rem;
+        height: 7rem;
+    }
+    
+    .orders .tabs .tabcontent .div .span span{
+        margin: 6px 12px;
+    }
+    
+    .orders .tabs .tabcontent .div .span span h4{
+        font-size: 1rem;
+    }
+    
+    .orders .tabs .tabcontent .div .span span p{
+        margin: 5px 0;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    
+    .orders .tabs .tabcontent .div a{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0.7rem;
+    }
+}
