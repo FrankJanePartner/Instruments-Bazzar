@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Orders History{% endblock %}
+{% block content %}
+  <link rel="stylesheet" href="{% static 'core/css/myprofile.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/order-history.css' %}">
+  <div class="landing-page profile order-history">
+    <div class="main">
+      <aside>
+        <div class="nav">
+          <a href="">Home</a>
+          &gt;
+          <a href="">Account</a>
+        </div>
+        <button class="dropDown">Manage My Account</button>
+        <ul class="drop-content">
+          <a href="">
+            <li>My Profile</li>
+          </a>
+          <a href="">
+            <li>Address</li>
+          </a>
+        </ul>
+        <a href="" class="active">My Orders</a>
+        <a href="">Saved Items</a>
+        <button class="logout">
+          <a href="">
+            <img src="{% static 'core/images/tablerlogout.svg' %}" alt="">
+            Log Out
+          </a>
+        </button>
+      </aside>
+      <main>
+        <div class="section nav">
+          <a href="">&larr; Package History</a>
+        </div>
+        <div class="section order-info">
+            <section>
+              <ul>
+                <li>
+                  <p class="check">&check;</p>
+                  <span>
+                    <p class="order-status">Order Placed</p>
+                    <p class="date">24-08-2023</p>
+                  </span>
+                </li>
+                <li>
+                  <p class="check">&check;</p>
+                  <span>
+                    <p class="order-status">Pending Confirmation</p>
+                    <p class="date">24-08-2023</p>
+                  </span>
+                </li>
+                <li>
+                  <p class="check">&check;</p>
+                  <span>
+                    <p class="order-status">Waiting to be shipped</p>
+                    <p class="date">24-08-2023</p>
+                  </span>
+                </li>
+                <li>
+                  <p class="check">&check;</p>
+                  <span>
+                    <p class="order-status">Shipped</p>
+                    <p class="date">24-08-2023</p>
+                  </span>
+                </li>
+                <li class="false">
+                  <p class="check">&check;</p>
+                  <span>
+                    <p class="order-status">Out for delivery</p>
+                    <p class="date">24-08-2023</p>
+                  </span>
+                </li>
+                <li class="download">
+                  <p class="check"></p>
+                  <span>
+                    <p class="order-status">Download</p>
+                    <p class="date">24-08-2023</p>
+                    <small>Your items/order has been delivered</small>
+                  </span>
+                </li>
+              </ul>
+            </section>
+        </div>
+      </main>
+    </div>
+  </div>
+  {% endblock %}

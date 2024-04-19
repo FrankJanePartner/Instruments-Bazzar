@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succcess</title>
+    <link rel="stylesheet" href="{% static 'core/css/success.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/global.css' %}">
+</head>
+<body>
+    <div class="success">
+        <img src="{% static 'core/images/check.jpg' %}" alt="">
+        <h1>Successful!</h1>
+        <p>Your account has been Successfully created.</p>
+        <p>You will be redirected in 10 seconds...</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            window.location.href = '{% url "store_home" %}';
+        }, 10000);  // Redirect after 10 seconds
+    </script>
+</body>
+</html>

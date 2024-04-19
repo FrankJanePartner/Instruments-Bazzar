@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Orders{% endblock %}
+{% block content %}
+  <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/myprofile.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/orders.css' %}">
+  <div class="landing-page profile orders">
+    <div class="main">
+      <aside>
+        <div class="nav">
+          <a href="">Home</a>
+          &gt;
+          <a href="">Account</a>
+        </div>
+        <button class="dropDown">Manage My Account</button>
+        <ul class="drop-content">
+          <a href="">
+            <li>My Profile</li>
+          </a>
+          <a href="">
+            <li>Address</li>
+          </a>
+        </ul>
+        <a href="" class="active">My Orders</a>
+        <a href="">Saved Items</a>
+        <button class="logout">
+          <a href="">
+            <img src="{% static 'core/images/tablerlogout.svg' %}" alt="">
+            Log Out
+          </a>
+        </button>
+      </aside>
+      <main>
+        <div class="tabs">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">Completed</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Pending</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Cancelled</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <div class="div">
+              <span class="span">
+                <img src="" alt="">
+                <span class="completed">
+                  <h4>Power Engine Drill</h4>
+                  <p>Order TF-07846gn</p>
+                  <p class="status">Completed</p>
+                  <p>24-08-2023</p>
+                </span>
+              </span>
+              <a href="">See Details</a>
+            </div>
+            <div class="div">
+              <span class="span">
+                <img src="" alt="">
+                <span class="completed">
+                  <h4>Power Engine Drill</h4>
+                  <p>Order TF-07846gn</p>
+                  <p class="status">Completed</p>
+                  <p>24-08-2023</p>
+                </span>
+              </span>
+              <a href="">See Details</a>
+            </div>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <div class="div">
+              <span class="span">
+                <img src="" alt="">
+                <span class="pending">
+                  <h4>Power Engine Drill</h4>
+                  <p>Order TF-07846gn</p>
+                  <p class="status">Pending</p>
+                  <p>24-08-2023</p>
+                </span>
+              </span>
+              <a href="">See Details</a>
+            </div> 
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <div class="div">
+              <span class="span">
+                <img src="" alt="">
+                <span class="cancelled">
+                  <h4>Power Engine Drill</h4>
+                  <p>Order TF-07846gn</p>
+                  <p class="status">Cancelled</p>
+                  <p>24-08-2023</p>
+                </span>
+              </span>
+              <a href="">See Details</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="{% static 'core/js/tabs.js' %}"></script>
+</body>
+</html>

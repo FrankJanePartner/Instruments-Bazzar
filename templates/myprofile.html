@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+  <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/myprofile.css' %}">
+  <div class="landing-page profile">
+    <div class="main">
+      <aside>
+        <div class="nav">
+          <a href="">Home</a>
+          &gt;
+          <a href="" class="active">Account</a>
+        </div>
+        <button class="dropDown">Manage My Account</button>
+        <ul class="drop-content">
+          <a href="" class="active">
+            <li>My Profile</li>
+          </a>
+          <a href="">
+            <li>Address</li>
+          </a>
+        </ul>
+        <a href="">My Orders</a>
+        <a href="">Saved Items</a>
+        <button class="logout">
+          <a href="">
+            <img src="{% static 'core/images/tablerlogout.svg' %}" alt="">
+            Log Out
+          </a>
+        </button>
+      </aside>
+      <main>
+        <form action="" method="post">
+          <div class="header">
+            <span>
+              <h3>Customize Avatar</h3>
+              <p>Upload avatar following this format PNG, JPG, <br> (max. 800x800px)</p>
+            </span>
+            <input type="file" src="" alt="Upload image click here or Drag & Drop" placeholder="Upload image click here or Drag & Drop">
+          </div>
+          <div class="form">
+            <div>
+              <span>
+                <label for="">First Name</label>
+                <input type="text" placeholder="Helen">
+              </span>
+              <span>
+                <label for="">Email</label>
+                <input type="email" placeholder="adaisagirl@gmail.com">
+              </span>
+            </div>
+            <div>
+              <span>
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Uju">
+              </span>
+              <span>
+                <label for="">Phone Number</label>
+                <input type="tel">
+              </span>
+            </div>
+          </div>
+          <div class="cpass">
+            <h3>Password Change</h3>
+          </div>
+          <div class="form form2">
+            <div>
+              <label for="">Current Password</label>
+              <input type="text" placeholder="Enter current password here">
+            </div>
+            <div>
+              <label for="">New Password</label>
+              <input type="text" placeholder="Enter new password here">
+            </div>
+            <div>
+              <label for="">Re-enter New Password</label>
+              <input type="text" placeholder="Re-enter enter new password here">
+            </div>
+          </div>
+          <button type="submit" class="submit">Save Changes</button>
+        </form>
+      </main>
+    </div>
+  </div>
+{% endblock %}
