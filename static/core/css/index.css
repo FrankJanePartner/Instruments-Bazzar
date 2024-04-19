@@ -1,0 +1,1283 @@
+.landing-page{
+  width: 100vw;
+  padding: 0px;
+}
+
+.landing-page main{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main section{
+  width: 87%;
+}
+
+.landing-page main .firstSection{
+  height: fit-content;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--sky-blue);
+}
+
+.landing-page main .firstSection div{
+  width: 50%
+}
+
+.landing-page main .firstSection div h1{
+  width: 75%;
+  font-size: 2.5rem;
+  margin: 0px;
+  color: white;
+}
+
+.landing-page main .firstSection div p{
+  width: 95%;
+  margin: 2rem 0rem;
+  color: white;
+}
+
+.landing-page main .firstSection div button{
+  color: white;
+  background-color:  var(--Azure);
+  border: 0px;
+  padding: 1rem 5rem;
+  border-radius: 0.3rem;
+}
+
+.landing-page main .secondSection{
+  height: 6rem;
+  width: 95%;
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .secondSection .icons{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .secondSection .icons img{
+  width: 3rem;
+  height: 10%;
+  margin: 0px;
+}
+
+.landing-page main .secondSection .icons span{
+  width: 70%;
+  margin-left: 1rem;
+}
+
+.landing-page main .secondSection .icons span h3{
+  width: 100%;
+  margin: 0px;
+  font-size: 1rem;
+}
+
+.landing-page main .secondSection .icons span p{
+  width: 100%;
+  margin: 0px;
+}
+
+.landing-page main .thirdSection{
+  height: 25rem;
+  width: 95%;
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .thirdSection .div1, .landing-page main .thirdSection .div2{
+  height: 100%;
+  width: 49%;
+  margin: 0px;
+}
+
+.landing-page main .thirdSection .div1{
+  background-color: var(--sky-blue);
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+.landing-page main .thirdSection .div1 h2{
+  width: 50%;
+  font-size: 2rem;
+}
+
+.landing-page main .thirdSection .div1 p{
+  width: 50%;
+  font-size: 1rem;
+}
+
+.landing-page main .thirdSection .div2{
+  height: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .thirdSection .div2 .div21, .landing-page main .thirdSection .div2 .div22{
+  height: 45%;
+  width: 100%;
+  padding: 0.1rem 2rem;
+  box-sizing: border-box;
+}
+
+.landing-page main .thirdSection .div2 .div21{
+  background-color: #152039;
+}
+
+.landing-page main .thirdSection .div2 .div22{
+  background-color: #ebd0d0;
+}
+
+.landing-page main .thirdSection .div2 .div21 h2, .landing-page main .thirdSection .div2 .div22 h2{
+  width: 50%;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.landing-page main .thirdSection .div2 .div21 p, .landing-page main .thirdSection .div2 .div22 p{
+  width: 50%;
+  font-size: 1rem;
+}
+
+.landing-page main .thirdSection .div2 .div21 h2{
+  color: white;
+}
+
+.landing-page main .thirdSection .div2 .div21 p{
+  color: white;
+}
+
+.landing-page main .thirdSection .div2 .div22 p{
+  width: 49%;
+}
+
+.landing-page main .forthSection{
+  height: fit-content;
+  width: 95%;
+  margin: 3rem 0rem;
+}
+
+.landing-page main .forthSection .product{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px;
+}
+
+.landing-page main .forthSection .product span{
+  width: 65%;
+}
+
+.landing-page main .forthSection .product span h2{
+  margin: 0px;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.landing-page main .forthSection .product span h2{
+  margin: 0px 0px 3pz;
+}
+
+.landing-page main .forthSection .product span p{
+  margin: 0px;
+}
+
+.landing-page main .forthSection .product button{
+  background-color:  var(--Azure);
+  color: white;
+  padding: 0.7rem 3rem;
+  border: 0px;
+  border-radius: 0.3rem;
+}
+
+.landing-page main .forthSection .productList{
+  width: 100%;
+  height: 23rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px;
+  margin-top: 2rem;
+}
+
+.landing-page main .forthSection .productList .pro{
+  height: 100%;
+  width: 23%;
+}
+
+.landing-page main .forthSection .productList .pro img{
+  height: 18rem;
+  width: 100%;
+}
+
+.landing-page main .forthSection .productList .pro .slideline{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px;
+}
+
+.landing-page main .forthSection .productList .pro .slideline span{
+  width: 30%;
+  height: 0.3rem;
+  margin: 0px 3px;
+  background-color: rgb(198, 195, 195);
+}
+
+.landing-page main .forthSection .productList .pro .slideline .active{
+  background-color: rgb(80, 79, 79);
+}
+
+.landing-page main .forthSection .productList .pro h6{
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+
+.landing-page main .forthSection .productList .pro h5{
+  color:  var(--Azure);
+  margin: 5px 0px;
+  font-size: 1.2rem;
+}
+
+.landing-page main .fifthSection{
+  background-color: #152039;
+  height: 20rem;
+  margin: 2rem 0rem;
+  width: 95%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.landing-page main .fifthSection h1{
+  width: 40%;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 50px;
+}
+
+.landing-page main .fifthSection .timer{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.landing-page main .fifthSection .timer span{
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page main .fifthSection .timer span h6,
+.landing-page main .fifthSection .timer span p{
+  margin: 0px;
+  font-size: 1rem;
+  padding: 0px;
+  line-height: 15px;
+}
+
+.landing-page main .fifthSection button{
+  background-color: var(--Azure);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 0.3rem;
+  border: 0px;
+}
+
+.landing-page main .sixSection{
+  width: 95%;
+  height: 4rem;
+  margin: 2rem 0rem;
+  background-color: #152039;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page main .sixSection h1{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 100;
+}
+
+.landing-page main .sixSection h1 .bold{
+  font-weight: 600;
+}
+
+.landing-page main .sixSection h1 .border{
+  border: 1px dashed white;
+  padding: 0.2rem;
+  font-weight: 100;
+}
+
+.landing-page main .seventhSection{
+  height: 15rem;
+  width: 95%;
+  margin: 1rem 0rem;
+}
+
+.landing-page main .forthSection .productList .cate{
+  height: 100%;
+  width: 17%;
+}
+
+.landing-page main .forthSection .productList .cate img{
+  height: 10rem;
+  width: 100%;
+}
+
+.landing-page main .eightSection{
+  width: 95%;
+  height: 15rem;
+  margin: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .eightSection .revTop{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0rem;
+  font-weight: 500;
+}
+
+.landing-page main .eightSection .revTop h3{
+  margin: 0px;
+  font-size: 1.7rem;
+}
+
+.landing-page main .eightSection .revSlider{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .eightSection .revSlider .revDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.landing-page main .eightSection .revSlider .revDetail p{
+  text-align: center;
+}
+
+.landing-page main .eightSection .dot{
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page main .eightSection .dot div{
+  background-color: rgb(193, 193, 193);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  margin: 0.3rem;
+}
+
+.landing-page main .eightSection .dot .active{
+  background-color: black;
+}
+
+.landing-page main .nineSection{
+  width: 95%;
+  height: 7rem;
+  margin: 7rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+.landing-page main .nineSection img{
+  width: 10%;
+  height: 3.5rem;
+  object-fit: cover;
+}
+
+.landing-page main .tenSection{
+  width: 95%;
+  height: 13rem;
+  background-color: #152039;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.landing-page main .tenSection .one{
+  width: 50%;
+}
+
+.landing-page main .tenSection .one h3{
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.landing-page main .tenSection .one div{
+  width: 70%;
+  height: 2.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-page main .tenSection .one div input{
+  height: 85%;
+  width: 70%;
+  margin: 0px;
+  border: none;
+}
+
+.landing-page main .tenSection .one div button{
+  background-color:  var(--Azure);
+  color: white;
+  width: 28.4%;
+  margin: 0px;
+  height: 99%;
+  border: none;
+}
+
+.landing-page main .tenSection .one p{
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+}
+
+.landing-page main .tenSection .two h2{
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+/* Style the tab */
+header .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+/* Style the buttons inside the tab */
+header .tab button {
+  background-color: inherit;
+  float: left;
+  border: none !important;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+header .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+header .tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+header .tabcontent {
+  width: max-content;
+  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  right: -10rem;
+  top: 10rem;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 50;
+}
+
+header .tabcontent a{
+  color:  black;
+  text-decoration: none;
+  margin: 0.7rem 0;
+}
+
+@media screen and (max-width: 770px) { 
+  .landing-page{
+    width: 100vw;
+  }
+
+  .landing-page main{
+    width: 100vw;
+  }
+  
+  .landing-page main section{
+    width: 87vw;
+  }
+  
+  .landing-page main .firstSection{
+    height: fit-content;
+  }
+  
+  .landing-page main .firstSection div{
+    width: 100%
+  }
+  
+  .landing-page main .firstSection div h1{
+    width: 90%;
+    font-size: 3rem;
+  }
+  
+  .landing-page main .secondSection{
+    height: 2rem;
+    width: 97vw;
+  }
+  
+  .landing-page main .secondSection .icons img{
+    width: 2.5rem;
+  }
+  
+  .landing-page main .secondSection .icons span h3{
+    font-size: 1rem;
+  }
+  
+  .landing-page main .secondSection .icons span p{
+    font-size: 0.8rem;
+  }
+  
+  .landing-page main .thirdSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1.9rem 0rem;;
+  }
+
+  .landing-page main .thirdSection .div1 h2{
+    width: 100%;
+  }
+  
+  .landing-page main .thirdSection .div1 p{
+    width: 100%;
+  }
+
+  .landing-page main .thirdSection .div2 .div21{
+    margin-bottom: 1rem;
+  }
+  
+  .landing-page main .thirdSection .div2 .div21 h2, .landing-page main .thirdSection .div2 .div22 h2{
+    width: 100%;
+    font-size: 1.4955rem;
+  }
+  
+  .landing-page main .thirdSection .div2 .div21 p, .landing-page main .thirdSection .div2 .div22 p{
+    width: 100%;
+    font-size: 0.95rem;
+  }
+  
+  .landing-page main .forthSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1rem 0rem;
+  }
+
+  .landing-page main .forthSection .productList{
+    height: fit-content;
+  }
+
+  .landing-page main .fifthSection h1{
+    width: 70%;
+  }
+  
+  .landing-page main .fifthSection .timer{
+    width: 60%;
+  }
+
+  .landing-page main .eightSection{
+    height: fit-content;
+    margin: 1rem 0rem;
+  }
+  
+  .landing-page main .nineSection{
+    height: fit-content;
+    margin: 2rem 0rem;
+  }
+
+  .landing-page main .tenSection{
+    width: 95vw;
+    height: fit-content;
+  }
+  
+  .landing-page main .tenSection .one div{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 450px){
+ 
+  .landing-page{
+    width: 100vw;
+  }
+  
+  .landing-page main{
+    width: 100vw;
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  
+  .landing-page main section{
+    width: 87vw;
+  }
+  
+  .landing-page main .firstSection{
+    height: fit-content;
+    width: 90vw;
+    box-sizing: border-box;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .landing-page main .firstSection div{
+    width: 100%
+  }
+  
+  .landing-page main .firstSection div h1{
+    width: 100%;
+    font-size: 2.5rem;
+    margin: 0px;
+    color: white;
+  }
+  
+  .landing-page main .firstSection div p{
+    width: 95%;
+    margin: 2rem 0rem;
+    color: white;
+  }
+  
+  .landing-page main .firstSection div button{
+    color: white;
+    width: 100%;
+    background-color:  var(--Azure);
+    border: 0px;
+    padding: 1rem 7rem;
+    border-radius: 0.3rem;
+  }
+  
+  .landing-page main .secondSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .landing-page main .secondSection .icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .landing-page main .secondSection .icons img{
+    width: 7rem;
+    height: 3rem;
+    margin: 0px;
+  }
+  
+  .landing-page main .secondSection .icons span{
+    width: 70%;
+    margin-left: 0.5rem;
+  }
+  
+  .landing-page main .secondSection .icons span h3{
+    width: 100%;
+    margin: 0px;
+    font-size: 1rem;
+  }
+  
+  .landing-page main .secondSection .icons span p{
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .landing-page main .thirdSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-page main .thirdSection .div1, .landing-page main .thirdSection .div2{
+    width: 95vw;
+    margin: 0px;
+  }
+
+  .landing-page main .thirdSection .div1{
+    height: 20rem;
+  }
+  
+  .landing-page main .thirdSection .div1{
+    background-color: #823030;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .landing-page main .thirdSection .div1 h2{
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  
+  .landing-page main .thirdSection .div1 p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .landing-page main .thirdSection .div2{
+    height: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .landing-page main .thirdSection .div2 .div21, .landing-page main .thirdSection .div2 .div22{
+    height: fit-content;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  .landing-page main .thirdSection .div2 .div21{
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-page main .thirdSection .div2 .div22{
+    height: 20rem;
+  }
+  
+  .landing-page main .thirdSection .div2 .div21 h2, .landing-page main .thirdSection .div2 .div22 h2{
+    width: 100%;
+    font-size: 2rem;
+    margin: 0px;
+  }
+  
+  .landing-page main .thirdSection .div2 .div21 p, .landing-page main .thirdSection .div2 .div22 p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .landing-page main .thirdSection .div2 .div22 p{
+    width: 100%;
+  }
+  
+  .landing-page main .forthSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 3rem 0rem;
+  }
+  
+  .landing-page main .forthSection .product{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .landing-page main .forthSection .product span{
+    width: 95%;
+  }
+  
+  .landing-page main .forthSection .product span h2{
+    margin: 0px;
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+  
+  .landing-page main .forthSection .product span h2{
+    margin: 0px 0px 3pz;
+  }
+  
+  .landing-page main .forthSection .product span p{
+    margin: 0px;
+  }
+  
+  .landing-page main .forthSection .product button{
+    background-color:  var(--Azure);
+    color: white;
+    padding: 0.7rem 3rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    width: 95%;
+    box-sizing: border-box;
+  }
+  
+  .landing-page main .forthSection .productList{
+    width: 100%;
+    height: 60rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-top: 2rem;
+  }
+  
+  .landing-page main .forthSection .productList .pro{
+    height: 1rem;
+    width: 95%;
+  }
+  
+  .landing-page main .forthSection .productList .pro img{
+    height: 14rem;
+    width: 100%;
+  }
+  
+  .landing-page main .forthSection .productList .pro .slideline{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px;
+  }
+  
+  .landing-page main .forthSection .productList .pro .slideline span{
+    width: 30%;
+    height: 0.3rem;
+    margin: 0px 3px;
+    background-color: rgb(198, 195, 195);
+  }
+  
+  .landing-page main .forthSection .productList .pro .slideline .active{
+    background-color: rgb(80, 79, 79);
+  }
+  
+  .landing-page main .forthSection .productList .pro h6{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+  }
+  
+  .landing-page main .forthSection .productList .pro h5{
+    color:  var(--Azure);
+    margin: 5px 0px;
+    font-size: 1.2rem;
+  }
+  
+  .landing-page main .fifthSection{
+    background-color: #152039;
+    height: fit-content;
+    margin: 2rem 0rem;
+    width: 97%;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .landing-page main .fifthSection h1{
+    width: 85%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 30px;
+    letter-spacing: 2px;
+  }
+
+  .landing-page main .fifthSection h1{
+    margin: 2rem 0rem;
+  }
+  
+  .landing-page main .fifthSection .timer{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 3rem;
+  }
+  
+  .landing-page main .fifthSection .timer span{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-page main .fifthSection .timer span h6,
+  .landing-page main .fifthSection .timer span p{
+    margin: 0px;
+    font-size: 0.7rem;
+    padding: 0px;
+    line-height: 15px;
+  }
+  
+  .landing-page main .fifthSection button{
+    width: 95%;
+    box-sizing: border-box;
+    background-color: var(--Azure);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 0.3rem;
+    border: 0px;
+  }
+  
+  .landing-page main .sixSection{
+    width: 100%;
+    height: 9rem;
+    margin: 2rem 0rem;
+    background-color: #152039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-page main .sixSection h1{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .landing-page main .sixSection h1 .bold{
+    font-weight: 600;
+  }
+  
+  .landing-page main .sixSection h1 .border{
+    width: 40%;
+    border: 1px dashed white;
+    padding: 0.2rem;
+    font-weight: 100;
+    display: block;
+    margin: 1rem 0rem;
+  }
+  
+  .landing-page main .seventhSection{
+    height: 25rem !important;
+    width: 95%;
+    margin: 1rem 0rem;
+  }
+
+  .landing-page main .seventhSection .product{
+    flex-direction: row;
+    height: 5rem;
+  }
+ 
+  .landing-page main .seventhSection .product button{
+    width: 50%;
+  }
+  
+  .landing-page main .seventhSection .productList{
+    height: 20rem !important;
+    overflow-y: scroll;
+  }
+  
+  .landing-page main .seventhSection .productList .cate{
+    height: fit-content;
+    width: 90%;
+    margin: 5px 0px;
+  }
+  
+  .landing-page main .seventhSection .productList .cate img{
+    height: 12rem;
+    width: 100%;
+  }
+  
+  .landing-page main .eightSection{
+    width: 95%;
+    height: 50rem;
+    margin: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .landing-page main .eightSection .revTop{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .landing-page main .eightSection .revTop h3{
+    margin: 0px;
+    font-size: 1.7rem;
+  }
+  
+  .landing-page main .eightSection .revSlider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .landing-page main .eightSection .revSlider .arrow{
+    display: none;
+  }
+  
+  .landing-page main .eightSection .revSlider .revDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .landing-page main .eightSection .revSlider .revDetail p{
+    text-align: center;
+  }
+  
+  .landing-page main .eightSection .dot{
+    height: 3rem;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-page main .eightSection .dot div{
+    background-color: rgb(193, 193, 193);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    margin: 0.3rem;
+  }
+  
+  .landing-page main .eightSection .dot .active{
+    background-color: black;
+  }
+  
+  .landing-page main .nineSection{
+    width: 95%;
+    height: 7rem;
+    margin: 7rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+  }
+  
+  .landing-page main .nineSection img{
+    width: 10%;
+    height: 3.5rem;
+    object-fit: cover;
+  }
+  
+  .landing-page main .tenSection{
+    width: 95%;
+    height: 30rem;
+    background-color: #152039;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  }
+  
+  .landing-page main .tenSection .one{
+    width: 95%;
+  }
+  
+  .landing-page main .tenSection .one h3{
+    width: 95%;
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+  
+  .landing-page main .tenSection .one div{
+    width: 70%;
+    height: 2.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .landing-page main .tenSection .one div input{
+    height: 85%;
+    width: 70%;
+    margin: 0px;
+    border: none;
+  }
+  
+  .landing-page main .tenSection .one div button{
+    background-color:  var(--Azure);
+    color: white;
+    width: 28.4%;
+    margin: 0px;
+    height: 99%;
+    border: none;
+  }
+  
+  .landing-page main .tenSection .one p{
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+    
+  .landing-page main .tenSection .two{
+    width: 95%;
+  }
+  
+  .landing-page main .tenSection .two h2{
+    margin: 10px 0px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .landing-page main .firstSection{
+    padding: 1rem;
+  }
+
+  .landing-page main .firstSection div h1{
+    font-size: 1.5rem;
+  }
+  
+  .landing-page main .firstSection div p{
+    width: 100%;
+  }
+  
+  .landing-page main .firstSection div button{
+    padding: 1rem;
+  }
+
+  .landing-page main .secondSection .icons{
+    margin-bottom: 0.5rem;
+  }
+  
+  .landing-page main .secondSection .icons img{
+    width: 3rem;
+    height: 2rem;
+    margin: 0px;
+  }
+  
+  .landing-page main .secondSection .icons span{
+    width: 70%;
+    margin-left: 0.5rem;
+  }
+  
+  .landing-page main .fifthSection{
+    padding: 1rem;
+  }
+  
+  .landing-page main .fifthSection h1{
+    width: 95%;
+  }
+
+  .landing-page main .fifthSection .timer{
+    width: 95%;
+    margin-bottom: 1.7rem;
+  }
+  
+  .landing-page main .fifthSection .timer span{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .landing-page main .fifthSection button{
+    padding: 0.7rem 2rem;
+  }
+  .landing-page main .seventhSection .product button {
+    width: 70%;
+    padding: 0.5rem;
+  }
+
+  .landing-page main .eightSection{
+    height: fit-content;
+    margin: 1rem 0rem;
+  }
+  
+  .landing-page main .nineSection{
+    height: fit-content;
+    margin: 1rem 0rem;
+  }
+  
+  .landing-page main .nineSection img{
+    height: 1.7rem;
+  }
+  
+  .landing-page main .tenSection{
+    height: fit-content;
+  }
+  
+  .landing-page main .tenSection .one div{
+    width: 100%;
+  }
+  
+  .landing-page main .tenSection .one div input{
+    height: 85%;
+    width: 70%;
+    margin: 0px;
+    border: none;
+  }
+}

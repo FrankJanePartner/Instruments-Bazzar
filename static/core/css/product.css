@@ -1,0 +1,176 @@
+.product{
+    width: 99vw;
+    margin: 0rem;
+    overflow-x: hidden;
+}
+
+.product .main{
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0rem 3rem;
+}
+
+.product .main aside{
+    width: 23%;
+    height: fit-content;
+    padding: 1rem;
+}
+
+.product .main aside li{
+    list-style-type: disc;
+}
+
+.product .main aside a{
+    text-decoration: none;
+    color: black;
+}
+
+.product .main main{
+    width: 100% !important;
+}
+
+.product .main main .forthSection{
+    height: fit-content;
+}
+
+.product .main main .forthSection .product{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .main main .forthSection .product span{
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .main main .forthSection .productList{
+    height: fit-content;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product .main main .forthSection .productList .pro{
+    width: 100%;
+}
+
+@media screen and (max-width:770px) {
+    .product{
+        width: 100vw;
+        margin: 0rem;
+        overflow-x: hidden;
+    }
+    
+    .product .main{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 1rem 0rem 3rem;
+    }
+    
+    .product .main aside{
+        width: 20%;
+        height: fit-content;
+        padding: 0.5rem 0.7rem;
+    }
+    
+    .product .main aside h3{
+        font-size: 1.1rem;
+        padding: 0px;
+        margin: 0;
+    }
+    
+    .product .main aside a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .product .main aside a li{
+        margin: 1.2rem 0;
+    }
+    
+    .product .main main{
+        width: 95vw !important;
+    }
+
+    .landing-page main .firstSection{
+        width: 90% !important;
+    }
+    
+    .product .main main .forthSection{
+        height: fit-content;
+        width: 97% !important;
+    }
+    
+    .product .main main .forthSection .product{
+        width: 97%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .product .main main .forthSection .product span{
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .product .main main .forthSection .productList{
+        height: fit-content;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .product .main main .forthSection .productList .pro{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .product .main aside{
+        display:none;
+    }
+
+    .product .main main .forthSection{
+        height: fit-content !important;
+        overflow: visible;
+    }
+
+    .product .main main .forthSection .productList{
+        height: fit-content;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        overflow: visible;
+    }
+    .product .main main .forthSection .productList .pro{
+        width: 100%;
+        height: fit-content;
+
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .whiteFirst .div2 {
+        width: 95%;
+        font-size: 0.6rem;
+    }
+
+    .landing-page main .firstSection div button{
+        padding: 1rem;
+    }
+}

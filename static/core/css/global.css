@@ -1,0 +1,2016 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap);
+
+body{
+  width: 100vw;
+  margin: 0px;
+  position: relative;
+  font-family:  Manrope;
+  line-height: normal;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, option, input, select, label, footer, header, body, section, sup, sub{
+  font-family: Manrope;
+}
+
+:root {
+  /* fonts */
+  --font-manrope: Manrope;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-9xl: 28px;
+  --font-size-3xl: 22px;
+  --font-size-lgi: 19px;
+  --font-size-13xl: 32px;
+  --font-size-7xl: 26px;
+  --font-size-25xl: 44px;
+  --font-size-16xl: 35px;
+
+  /* Colors */
+  --neutral-white: #fff;
+  --secondary-color-100: #152039;
+  --black-color-90: #1b1f27;
+  --black-color: #151313;
+  --black-color-100: #0a0d14;
+  --secondary-color-5: #f3f4f5;
+  --primary-color-100: #9c1515;
+  --color-brown: #c23b3b;
+  --secondary-color-500: #ced4da;
+  --secondary-color-70: #5c6375;
+  --color-gainsboro-100: #d9d9d9;
+  --secondary-color-80: #444d61;
+  --neutral-20: #ebd0d0;
+  --color-rosybrown-100: #db9696;
+  --color-rosybrown-200: #c87d7d;
+  --state-color-error: #ff0318;
+  --primary-color-80: #b04444;
+  --sky-blue: #87CEEB;
+  --Baby-Blue: #89CFF0;
+  --Light-Blue: #ADD8E6;
+  --Powder-Blue: #B0E0E6;
+  --Cornflower-Blue: #6495ED;
+  --Azure: #007FFF;
+  --Carolina-Blue: #56A0D3;
+  --Celeste: #B2FFFF;
+  --Turquoise-Blue: #00CED1;
+  --Robin-Egg-Blue: #00CCCC;
+  --Pale-Blue: #AFEEEE;
+
+  /* Gaps */
+  --gap-56xl: 75px;
+  --gap-5xs: 8px;
+  --gap-mini: 15px;
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  --gap-6xs: 7px;
+  --gap-3xs: 10px;
+  --gap-20xl: 39px;
+  --gap-25xl: 44px;
+  --gap-46xl: 65px;
+  --gap-6xl: 25px;
+  --gap-10xs: 3px;
+  --gap-3xl: 22px;
+  --gap-lg: 18px;
+  --gap-8xs: 5px;
+  --gap-2xl: 21px;
+  --gap-11xl: 30px;
+  --gap-14xl: 33px;
+  --gap-12xl: 31px;
+  --gap-11xs: 2px;
+  --gap-49xl: 68px;
+  --gap-9xs: 4px;
+  --gap-29xl: 48px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-xl: 20px;
+  --padding-9xs: 4px;
+  --padding-21xl: 40px;
+  --padding-61xl: 80px;
+  --padding-8xs: 5px;
+  --padding-12xs: 1px;
+  --padding-mini: 15px;
+  --padding-xs: 12px;
+  --padding-2xs: 11px;
+  --padding-34xl: 53px;
+  --padding-smi: 13px;
+  --padding-16xl: 35px;
+  --padding-7xl: 26px;
+  --padding-15xl: 34px;
+  --padding-6xs: 7px;
+  --padding-3xs: 10px;
+  --padding-4xs: 9px;
+  --padding-lg: 18px;
+  --padding-32xl: 51px;
+  --padding-37xl: 56px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+}
+
+:root {
+  /* Colors */
+  --neutral-white: #fff;
+  --secondary-color-100: #152039;
+  --black-color-90: #1b1f27;
+  --black-color: #151313;
+  --black-color-100: #0a0d14;
+  --secondary-color-5: #f3f4f5;
+  --primary-color-100: #9c1515;
+  --color-brown: #c23b3b;
+  --secondary-color-500: #ced4da;
+  --secondary-color-70: #5c6375;
+  --color-gainsboro-100: #d9d9d9;
+  --secondary-color-80: #444d61;
+  --neutral-20: #ebd0d0;
+  --color-rosybrown-100: #db9696;
+  --color-rosybrown-200: #c87d7d;
+  --state-color-error: #ff0318;
+  --primary-color-80: #b04444;
+  --sky-blue: #87CEEB;
+  --Baby-Blue: #89CFF0;
+  --Light-Blue: #ADD8E6;
+  --Powder-Blue: #B0E0E6;
+  --Cornflower-Blue: #6495ED;
+  --Azure: #007FFF;
+  --Carolina-Blue: #56A0D3;
+  --Celeste: #B2FFFF;
+  --Turquoise-Blue: #00CED1;
+  --Robin-Egg-Blue: #00CCCC;
+  --Pale-Blue: #AFEEEE;
+}
+
+
+header{
+  width: 100%;
+  position: static;
+  top: 0;
+}
+
+.userprofileimage{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+
+.blueTop{
+  width: 100%;
+  height: 3rem;
+  margin: 0px;
+  background-color: #152039;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blueTop h3{
+  color: white;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.whiteFirst{
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 20px 10px -20px rgb(216, 215, 215);
+}
+
+.whiteFirst span{
+  color:  var(--Azure);
+}
+
+.whiteFirst .div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteFirst .div3{
+  width: 20%;
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whiteFirst .div3 select{
+  border: none;
+}
+
+.whiteSecond{
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 20px 10px -10px rgb(216, 215, 215);
+}
+
+.whiteSecond .logo{
+  width: 20%;
+  height: 70%;
+  margin-left: 2rem;
+}
+
+.whiteSecond .logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.whiteSecond .search{
+  width: 45%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin: 0px;
+  background-color: #f3f4f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whiteSecond .search .dropdown{
+  border-radius: 0.5rem;
+  width: 25%;
+  height: 99.5%;
+  margin: 0;
+  position: relative;
+}
+
+.whiteSecond .search .dropdown .dropbtn{
+  width: 100%;
+  margin: 0;
+  border: 1px solid  var(--Azure);
+  height: 100%;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.whiteSecond .search .dropdown .dropdown-content{
+  display: none;
+  width: max-content;
+  height: fit-content;
+  padding: 0.7rem;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  bottom: -10.5rem;
+  border: 1px solid black;
+}
+
+.whiteSecond .search .dropdown .drop{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.whiteSecond .search .dropdown .drop .dropbtn2{
+  width: 100%;
+  margin: 0.3rem 0;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.whiteSecond .search .dropdown .drop .dropdown-conten{
+  display: none;
+  width: max-content;
+  height: fit-content;
+  padding: 0.7rem;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  bottom: -3.15rem;
+  left: 12rem;
+  border: 1px solid black;
+}
+
+.whiteSecond .search .dropdown .dropdown-content a{
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+.whiteSecond .search .dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.whiteSecond .search .dropdown .drop:hover .dropdown-conten{
+  display: block;
+}
+
+.whiteSecond .search input{
+  width: 80%;
+  height: 100%;
+  border: 0px;
+  background-color: #f3f4f5;
+}
+
+.whiteSecond .search button{
+  border: 0px;
+}
+
+.whiteSecond .account{
+  width: 10%;
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whiteSecond .account .cart{
+  position: relative;
+}
+
+.whiteSecond .account .cart p{
+  position: absolute;
+  background-color: var(--Azure);
+  color: white;
+  padding: 1px 5px;
+  border-radius: 10px;
+  top: -10px;
+  right: -1px;
+  font-size: 10px;
+}
+
+main{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section{
+  width: 87%;
+}
+
+main .firstSection{
+  height: fit-content;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--sky-blue);
+}
+
+main .firstSection div{
+  width: 50%
+}
+
+main .firstSection div h1{
+  width: 75%;
+  font-size: 2.5rem;
+  margin: 0px;
+  color: white;
+}
+
+main .firstSection div p{
+  width: 95%;
+  margin: 2rem 0rem;
+  color: white;
+}
+
+main .firstSection div button{
+  color: white;
+  background-color:  var(--Azure);
+  border: 0px;
+  padding: 1rem 5rem;
+  border-radius: 0.3rem;
+}
+
+main .secondSection{
+  height: 6rem;
+  width: 95%;
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .secondSection .icons{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .secondSection .icons img{
+  width: 3rem;
+  height: 10%;
+  margin: 0px;
+}
+
+main .secondSection .icons span{
+  width: 70%;
+  margin-left: 1rem;
+}
+
+main .secondSection .icons span h3{
+  width: 100%;
+  margin: 0px;
+  font-size: 1rem;
+}
+
+main .secondSection .icons span p{
+  width: 100%;
+  margin: 0px;
+}
+
+main .thirdSection{
+  height: 25rem;
+  width: 95%;
+  margin: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .thirdSection .div1, main .thirdSection .div2{
+  height: 100%;
+  width: 49%;
+  margin: 0px;
+}
+
+main .thirdSection .div1{
+  background-color: var(--sky-blue);
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+main .thirdSection .div1 h2{
+  width: 50%;
+  font-size: 2rem;
+}
+
+main .thirdSection .div1 p{
+  width: 50%;
+  font-size: 1rem;
+}
+
+main .thirdSection .div2{
+  height: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .thirdSection .div2 .div21, main .thirdSection .div2 .div22{
+  height: 45%;
+  width: 100%;
+  padding: 0.1rem 2rem;
+  box-sizing: border-box;
+}
+
+main .thirdSection .div2 .div21{
+  background-color: #152039;
+}
+
+main .thirdSection .div2 .div22{
+  background-color: #ebd0d0;
+}
+
+main .thirdSection .div2 .div21 h2, main .thirdSection .div2 .div22 h2{
+  width: 50%;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+main .thirdSection .div2 .div21 p, main .thirdSection .div2 .div22 p{
+  width: 50%;
+  font-size: 1rem;
+}
+
+main .thirdSection .div2 .div21 h2{
+  color: white;
+}
+
+main .thirdSection .div2 .div21 p{
+  color: white;
+}
+
+main .thirdSection .div2 .div22 p{
+  width: 49%;
+}
+
+main .forthSection{
+  height: 25rem;
+  width: 95%;
+  margin: 3rem 0rem;
+}
+
+main .forthSection .product{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px;
+}
+
+main .forthSection .product span{
+  width: 65%;
+}
+
+main .forthSection .product span h2{
+  margin: 0px;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+main .forthSection .product span h2{
+  margin: 0px 0px 3pz;
+}
+
+main .forthSection .product span p{
+  margin: 0px;
+}
+
+main .forthSection .product button{
+  background-color:  var(--Azure);
+  color: white;
+  padding: 0.7rem 3rem;
+  border: 0px;
+  border-radius: 0.3rem;
+}
+
+main .forthSection .productList{
+  width: 100%;
+  height: 23rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px;
+  margin-top: 2rem;
+}
+
+main .forthSection .productList .pro{
+  height: 100%;
+  width: 23%;
+}
+
+main .forthSection .productList .pro img{
+  height: 18rem;
+  width: 100%;
+}
+
+main .forthSection .productList .pro .slideline{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px;
+}
+
+main .forthSection .productList .pro .slideline span{
+  width: 30%;
+  height: 0.3rem;
+  margin: 0px 3px;
+  background-color: rgb(198, 195, 195);
+}
+
+main .forthSection .productList .pro .slideline .active{
+  background-color: rgb(80, 79, 79);
+}
+
+main .forthSection .productList .pro h6{
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+
+main .forthSection .productList .pro h5{
+  color:  var(--Azure);
+  margin: 5px 0px;
+  font-size: 1.2rem;
+}
+
+main .fifthSection{
+  background-color: #152039;
+  height: 20rem;
+  margin: 2rem 0rem;
+  width: 95%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main .fifthSection h1{
+  width: 40%;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 50px;
+}
+
+main .fifthSection .timer{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+main .fifthSection .timer span{
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .fifthSection .timer span h6,
+main .fifthSection .timer span p{
+  margin: 0px;
+  font-size: 1rem;
+  padding: 0px;
+  line-height: 15px;
+}
+
+main .fifthSection button{
+  background-color: var(--Azure);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 0.3rem;
+  border: 0px;
+}
+
+main .sixSection{
+  width: 95%;
+  height: 4rem;
+  margin: 2rem 0rem;
+  background-color: #152039;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .sixSection h1{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 100;
+}
+
+main .sixSection h1 .bold{
+  font-weight: 600;
+}
+
+main .sixSection h1 .border{
+  border: 1px dashed white;
+  padding: 0.2rem;
+  font-weight: 100;
+}
+
+main .seventhSection{
+  height: 15rem;
+  width: 95%;
+  margin: 1rem 0rem;
+}
+
+main .forthSection .productList .cate{
+  height: 100%;
+  width: 17%;
+}
+
+main .forthSection .productList .cate img{
+  height: 10rem;
+  width: 100%;
+}
+
+main .eightSection{
+  width: 95%;
+  height: 15rem;
+  margin: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .eightSection .revTop{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0rem;
+  font-weight: 500;
+}
+
+main .eightSection .revTop h3{
+  margin: 0px;
+  font-size: 1.7rem;
+}
+
+main .eightSection .revSlider{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .eightSection .revSlider .revDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+main .eightSection .revSlider .revDetail p{
+  text-align: center;
+}
+
+main .eightSection .dot{
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .eightSection .dot div{
+  background-color: rgb(193, 193, 193);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  margin: 0.3rem;
+}
+
+main .eightSection .dot .active{
+  background-color: black;
+}
+
+main .nineSection{
+  width: 95%;
+  height: 7rem;
+  margin: 7rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+main .nineSection img{
+  width: 10%;
+  height: 3.5rem;
+  object-fit: cover;
+}
+
+main .tenSection{
+  width: 95%;
+  height: 13rem;
+  background-color: #152039;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+main .tenSection .one{
+  width: 50%;
+}
+
+main .tenSection .one h3{
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+main .tenSection .one div{
+  width: 70%;
+  height: 2.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .tenSection .one div input{
+  height: 85%;
+  width: 70%;
+  margin: 0px;
+  border: none;
+}
+
+main .tenSection .one div button{
+  background-color:  var(--Azure);
+  color: white;
+  width: 28.4%;
+  margin: 0px;
+  height: 99%;
+  border: none;
+}
+
+main .tenSection .one p{
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+}
+
+main .tenSection .two h2{
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+footer{
+  width: 100;
+  margin: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  bottom: 0px;
+}
+
+footer a{
+  color: black;
+  text-decoration: none;
+}
+
+footer div.top,
+footer div.bottom{
+  width: 90%;
+  margin: 0px;
+}
+
+footer div h5{
+  font-size: 1.5rem;
+  margin: 0px;
+  margin-top: 1rem;
+}
+
+footer div.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer div.top div.links{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+footer .top .logo{
+  width: 30%;
+}
+
+footer div.top div.links span{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+footer div.top div.links span div a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 0.5rem 0rem;
+}
+
+footer div.top div img{
+  width: 10rem;
+}
+
+footer div.bottom{
+  height: 2rem;
+  border-top: 1px dotted black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div.bottom h5{
+  font-size: 1rem;
+}
+
+footer div.bottom p{
+  font-size: 0.5rem;
+}
+
+/* Style the tab */
+header .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+/* Style the buttons inside the tab */
+header .tab button {
+  background-color: inherit;
+  float: left;
+  border: none !important;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+header .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+header .tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+header .tabcontent {
+  width: max-content;
+  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  right: -10rem;
+  top: 10rem;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 50;
+}
+
+header .tabcontent a{
+  color:  black;
+  text-decoration: none;
+  margin: 0.7rem 0;
+}
+
+@media screen and (max-width: 770px) {
+  header{
+    width: 100vw;
+  }
+
+  .blueTop{
+    width: 100vw;
+    height: 3rem;
+  }
+  
+  .blueTop h3{
+    font-size:0.7rem;
+  }
+  
+  .whiteFirst{
+    width: 100vw;
+  }
+  
+  .whiteFirst .div2{
+    width: 70%;
+    font-size: 0.7rem;
+  }
+  
+  .whiteFirst .div3{
+    width: 35%;
+    font-size: 0.7rem;
+    padding: 0rem 1rem;
+  }
+  
+  .whiteSecond{
+    width: 100vw;
+    height: 4.5rem;
+  }
+  
+  .whiteSecond .logo{
+    margin-left: 1rem;
+  }
+  
+  .whiteSecond .search{
+    width: 55%;
+    height: 2.7rem;
+  }
+
+  .whiteSecond .search .dropdown{
+    width: 35%;
+  }
+
+  .whiteSecond .search .dropdown .dropbtn{
+    font-size: 1rem;
+  }
+
+  main{
+    width: 100vw;
+  }
+  
+  main section{
+    width: 87vw;
+  }
+  
+  main .firstSection{
+    height: fit-content;
+  }
+  
+  main .firstSection div{
+    width: 100%
+  }
+  
+  main .firstSection div h1{
+    width: 90%;
+    font-size: 3rem;
+  }
+  
+  main .secondSection{
+    height: 2rem;
+    width: 97vw;
+  }
+  
+  main .secondSection .icons img{
+    width: 2.5rem;
+  }
+  
+  main .secondSection .icons span h3{
+    font-size: 1rem;
+  }
+  
+  main .secondSection .icons span p{
+    font-size: 0.8rem;
+  }
+  
+  main .thirdSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1.9rem 0rem;;
+  }
+
+  main .thirdSection .div1 h2{
+    width: 100%;
+  }
+  
+  main .thirdSection .div1 p{
+    width: 100%;
+  }
+
+  main .thirdSection .div2 .div21{
+    margin-bottom: 1rem;
+  }
+  
+  main .thirdSection .div2 .div21 h2, main .thirdSection .div2 .div22 h2{
+    width: 100%;
+    font-size: 1.4955rem;
+  }
+  
+  main .thirdSection .div2 .div21 p, main .thirdSection .div2 .div22 p{
+    width: 100%;
+    font-size: 0.95rem;
+  }
+  
+  main .forthSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1rem 0rem;
+  }
+
+  main .forthSection .productList{
+    height: fit-content;
+  }
+
+  main .fifthSection h1{
+    width: 70%;
+  }
+  
+  main .fifthSection .timer{
+    width: 60%;
+  }
+
+  main .eightSection{
+    height: fit-content;
+    margin: 1rem 0rem;
+  }
+  
+  main .nineSection{
+    height: fit-content;
+    margin: 2rem 0rem;
+  }
+
+  main .tenSection{
+    width: 95vw;
+    height: fit-content;
+  }
+  
+  main .tenSection .one div{
+    width: 100%;
+  }
+  
+  footer{
+    width: 100vw;
+  }
+  
+  footer div.top,
+  footer div.bottom{
+    width: 90vw;
+    margin: 0px;
+  }
+  
+  footer div h5{
+    font-size: 1.2rem;
+    margin: 0px;
+    margin-top: 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 450px){
+  header{
+    width: 100vw;
+  }
+  
+  .blueTop{
+    font-size: 0.5rem;
+  }
+  
+  .blueTop h3{
+    width: 90%;
+  }
+  
+  .whiteFirst{
+    width: 100vw;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .whiteFirst .div1{
+    display: none;
+  }
+  
+  .whiteFirst .div2{
+    width: 90%;
+  }
+  
+  .whiteFirst .div3{
+    width: 50%;
+  }
+  
+  .whiteFirst .div3 select{
+    border: none;
+  }
+
+  .whiteFirst .div3 select option{
+    border: none;
+  }
+  
+  .whiteSecond{
+    width: 100vw;
+    height: 7rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .whiteSecond .logo{
+    width: 30%;
+    height: 30%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .whiteSecond .search{
+    width: 95%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin: 0px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  .whiteSecond .search select{
+    border-radius: 0.5rem;
+    width: 40%;
+    height: 100%;
+  }
+  
+  .whiteSecond .search input{
+    width: 70%;
+    height: 100%;
+    border: 0px;
+  }
+  
+  .whiteSecond .search button{
+    border: 0px;
+  }
+  
+  .whiteSecond .account{
+    width: 15%;
+    padding: 0rem 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .whiteSecond .account .fav{
+    display: none;
+  }
+  
+  .whiteSecond .account .cart{
+    position: relative;
+  }
+  
+  .whiteSecond .account .cart p{
+    position: absolute;
+    padding: 1px 5px;
+    border-radius: 10px;
+    top: -10px;
+    right: -1px;
+    font-size: 10px;
+  }
+  
+  main{
+    width: 100vw;
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  
+  main section{
+    width: 87vw;
+  }
+  
+  main .firstSection{
+    height: fit-content;
+    width: 90vw;
+    box-sizing: border-box;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  main .firstSection div{
+    width: 100%
+  }
+  
+  main .firstSection div h1{
+    width: 100%;
+    font-size: 2.5rem;
+    margin: 0px;
+    color: white;
+  }
+  
+  main .firstSection div p{
+    width: 95%;
+    margin: 2rem 0rem;
+    color: white;
+  }
+  
+  main .firstSection div button{
+    color: white;
+    width: 100%;
+    background-color:  var(--Azure);
+    border: 0px;
+    padding: 1rem 7rem;
+    border-radius: 0.3rem;
+  }
+  
+  main .secondSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .secondSection .icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .secondSection .icons img{
+    width: 7rem;
+    height: 3rem;
+    margin: 0px;
+  }
+  
+  main .secondSection .icons span{
+    width: 70%;
+    margin-left: 0.5rem;
+  }
+  
+  main .secondSection .icons span h3{
+    width: 100%;
+    margin: 0px;
+    font-size: 1rem;
+  }
+  
+  main .secondSection .icons span p{
+    width: 100%;
+    margin: 0px;
+  }
+  
+  main .thirdSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .thirdSection .div1, main .thirdSection .div2{
+    width: 95vw;
+    margin: 0px;
+  }
+
+  main .thirdSection .div1{
+    height: 20rem;
+  }
+  
+  main .thirdSection .div1{
+    background-color: #823030;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    
+  }
+  
+  main .thirdSection .div1 h2{
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  
+  main .thirdSection .div1 p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  main .thirdSection .div2{
+    height: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .thirdSection .div2 .div21, main .thirdSection .div2 .div22{
+    height: fit-content;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  main .thirdSection .div2 .div21{
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
+  
+  main .thirdSection .div2 .div22{
+    height: 20rem;
+  }
+  
+  main .thirdSection .div2 .div21 h2, main .thirdSection .div2 .div22 h2{
+    width: 100%;
+    font-size: 2rem;
+    margin: 0px;
+  }
+  
+  main .thirdSection .div2 .div21 p, main .thirdSection .div2 .div22 p{
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  main .thirdSection .div2 .div22 p{
+    width: 100%;
+  }
+  
+  main .forthSection{
+    height: fit-content;
+    width: 95vw;
+    margin: 3rem 0rem;
+  }
+  
+  main .forthSection .product{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  main .forthSection .product span{
+    width: 95%;
+  }
+  
+  main .forthSection .product span h2{
+    margin: 0px;
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+  
+  main .forthSection .product span h2{
+    margin: 0px 0px 3pz;
+  }
+  
+  main .forthSection .product span p{
+    margin: 0px;
+  }
+  
+  main .forthSection .product button{
+    background-color:  var(--Azure);
+    color: white;
+    padding: 0.7rem 3rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    width: 95%;
+    box-sizing: border-box;
+  }
+  
+  main .forthSection .productList{
+    width: 100%;
+    height: 60rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-top: 2rem;
+  }
+  
+  main .forthSection .productList .pro{
+    height: 1rem;
+    width: 95%;
+  }
+  
+  main .forthSection .productList .pro img{
+    height: 14rem;
+    width: 100%;
+  }
+  
+  main .forthSection .productList .pro .slideline{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px;
+  }
+  
+  main .forthSection .productList .pro .slideline span{
+    width: 30%;
+    height: 0.3rem;
+    margin: 0px 3px;
+    background-color: rgb(198, 195, 195);
+  }
+  
+  main .forthSection .productList .pro .slideline .active{
+    background-color: rgb(80, 79, 79);
+  }
+  
+  main .forthSection .productList .pro h6{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+  }
+  
+  main .forthSection .productList .pro h5{
+    color:  var(--Azure);
+    margin: 5px 0px;
+    font-size: 1.2rem;
+  }
+  
+  main .fifthSection{
+    background-color: #152039;
+    height: fit-content;
+    margin: 2rem 0rem;
+    width: 97%;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  main .fifthSection h1{
+    width: 85%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 30px;
+    letter-spacing: 2px;
+  }
+
+  main .fifthSection h1{
+    margin: 2rem 0rem;
+  }
+  
+  main .fifthSection .timer{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 3rem;
+  }
+  
+  main .fifthSection .timer span{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .fifthSection .timer span h6,
+  main .fifthSection .timer span p{
+    margin: 0px;
+    font-size: 0.7rem;
+    padding: 0px;
+    line-height: 15px;
+  }
+  
+  main .fifthSection button{
+    width: 95%;
+    box-sizing: border-box;
+    background-color: var(--Azure);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 0.3rem;
+    border: 0px;
+  }
+  
+  main .sixSection{
+    width: 100%;
+    height: 9rem;
+    margin: 2rem 0rem;
+    background-color: #152039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .sixSection h1{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  main .sixSection h1 .bold{
+    font-weight: 600;
+  }
+  
+  main .sixSection h1 .border{
+    width: 40%;
+    border: 1px dashed white;
+    padding: 0.2rem;
+    font-weight: 100;
+    display: block;
+    margin: 1rem 0rem;
+  }
+  
+  main .seventhSection{
+    height: 25rem !important;
+    width: 95%;
+    margin: 1rem 0rem;
+  }
+
+  main .seventhSection .product{
+    flex-direction: row;
+    height: 5rem;
+  }
+ 
+  main .seventhSection .product button{
+    width: 50%;
+  }
+  
+  main .seventhSection .productList{
+    height: 20rem !important;
+    overflow-y: scroll;
+  }
+  
+  main .seventhSection .productList .cate{
+    height: fit-content;
+    width: 90%;
+    margin: 5px 0px;
+  }
+  
+  main .seventhSection .productList .cate img{
+    height: 12rem;
+    width: 100%;
+  }
+  
+  main .eightSection{
+    width: 95%;
+    height: 50rem;
+    margin: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .eightSection .revTop{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  main .eightSection .revTop h3{
+    margin: 0px;
+    font-size: 1.7rem;
+  }
+  
+  main .eightSection .revSlider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+
+  main .eightSection .revSlider .arrow{
+    display: none;
+  }
+  
+  main .eightSection .revSlider .revDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  main .eightSection .revSlider .revDetail p{
+    text-align: center;
+  }
+  
+  main .eightSection .dot{
+    height: 3rem;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .eightSection .dot div{
+    background-color: rgb(193, 193, 193);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    margin: 0.3rem;
+  }
+  
+  main .eightSection .dot .active{
+    background-color: black;
+  }
+  
+  main .nineSection{
+    width: 95%;
+    height: 7rem;
+    margin: 7rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+  }
+  
+  main .nineSection img{
+    width: 10%;
+    height: 3.5rem;
+    object-fit: cover;
+  }
+  
+  main .tenSection{
+    width: 95%;
+    height: 30rem;
+    background-color: #152039;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  }
+  
+  main .tenSection .one{
+    width: 95%;
+  }
+  
+  main .tenSection .one h3{
+    width: 95%;
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+  
+  main .tenSection .one div{
+    width: 70%;
+    height: 2.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .tenSection .one div input{
+    height: 85%;
+    width: 70%;
+    margin: 0px;
+    border: none;
+  }
+  
+  main .tenSection .one div button{
+    background-color:  var(--Azure);
+    color: white;
+    width: 28.4%;
+    margin: 0px;
+    height: 99%;
+    border: none;
+  }
+  
+  main .tenSection .one p{
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+    
+  main .tenSection .two{
+    width: 95%;
+  }
+  
+  main .tenSection .two h2{
+    margin: 10px 0px;
+    font-weight: 500;
+  }
+  
+  footer{
+    width: 100%;
+    margin: 0px;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    bottom: 0px;
+  }
+  
+  footer div.top,
+  footer div.bottom{
+    width: 90%;
+    margin: 0px;
+  }
+  
+  footer div h5{
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-top: 1rem;
+  }
+  
+  footer div.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  footer div.top div{
+    width: 20%;
+    display: inline;
+  }
+  
+  footer .top .logo{
+    width: 90%;
+  }
+
+  footer div.top div.links{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  footer div.top div.links span{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  footer div.top div.links span div{
+    width: 50%;
+  }
+  
+  footer div.top div img{
+    width: 10rem;
+  }
+  
+  footer div.top div.links span div a{
+    color: black;
+    text-decoration: none;
+  }
+
+  footer div.bottom{
+    height: 2rem;
+    border-top: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer div.bottom h5{
+    font-size: 1rem;
+  }
+  
+  footer div.bottom p{
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 300px){
+  
+  .blueTop h3{
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  .whiteSecond {
+    height: 6rem;
+  }
+  
+  .whiteFirst .div2{
+    width: 95%;
+    font-size: 0.47rem;
+  }
+  
+  .whiteFirst .div3{
+    width: 90%;
+  }
+  
+  .whiteFirst .div3 select{
+    border: none;
+  }
+
+  .whiteFirst .div3 select option{
+    border: none;
+  }
+  
+  .whiteSecond .logo{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .whiteSecond .search{
+    height: 2rem;
+  }
+
+  .whiteSecond .search .dropdown .dropbtn {
+    font-size: 0.7rem;
+  }
+  
+  main .firstSection{
+    padding: 1rem;
+  }
+
+  main .firstSection div h1{
+    font-size: 1.5rem;
+  }
+  
+  main .firstSection div p{
+    width: 100%;
+  }
+  
+  main .firstSection div button{
+    padding: 1rem;
+  }
+
+  main .secondSection .icons{
+    margin-bottom: 0.5rem;
+  }
+  
+  main .secondSection .icons img{
+    width: 3rem;
+    height: 2rem;
+    margin: 0px;
+  }
+  
+  main .secondSection .icons span{
+    width: 70%;
+    margin-left: 0.5rem;
+  }
+  
+  main .fifthSection{
+    padding: 1rem;
+  }
+  
+  main .fifthSection h1{
+    width: 95%;
+  }
+
+  main .fifthSection .timer{
+    width: 95%;
+    margin-bottom: 1.7rem;
+  }
+  
+  main .fifthSection .timer span{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  main .fifthSection button{
+    padding: 0.7rem 2rem;
+  }
+  main .seventhSection .product button {
+    width: 70%;
+    padding: 0.5rem;
+  }
+
+  main .eightSection{
+    height: fit-content;
+    margin: 1rem 0rem;
+  }
+  
+  main .nineSection{
+    height: fit-content;
+    margin: 1rem 0rem;
+  }
+  
+  main .nineSection img{
+    height: 1.7rem;
+  }
+  
+  main .tenSection{
+    height: fit-content;
+  }
+  
+  main .tenSection .one div{
+    width: 100%;
+  }
+  
+  main .tenSection .one div input{
+    height: 85%;
+    width: 70%;
+    margin: 0px;
+    border: none;
+  }
+
+  footer div.top div.links span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  footer div.top div.links span div{
+    width: 100%;
+  }
+  
+  footer div.bottom h5{
+    font-size: 0.7rem;
+  }
+  
+  footer div.bottom p{
+    font-size: 0.2rem;
+  }
+}

@@ -1,0 +1,6 @@
+.order-checkout{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
